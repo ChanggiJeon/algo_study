@@ -1,14 +1,11 @@
 ## 1. 문제
 
-<h4 id="521-">브루트 포스 - 순열</h4>
+<h4 id="521-">브루트 포스</h4>
 <ul>
 <li><a href="https://www.acmicpc.net/problem/2529">부등호</a></li>
 <li><a href="https://www.acmicpc.net/problem/1339">단어 수학</a></li>
 <li><a href="https://www.acmicpc.net/problem/14888">연산자 끼워넣기</a></li>
 <li><a href="https://www.acmicpc.net/problem/14889">스타트와 링크</a></li>
-</ul>
-<h4 id="531-">브루트 포스 - 재귀</h4>
-<ul>
 <li><a href="https://www.acmicpc.net/problem/6603">로또</a></li>
 <li><a href="https://www.acmicpc.net/problem/1182">부분수열의 합</a></li>
 <li><a href="https://www.acmicpc.net/problem/14225">부분수열의 합</a></li>
@@ -22,9 +19,48 @@
 <li><a href="https://www.acmicpc.net/problem/4574">스도미노쿠</a></li>
 <li><a href="https://www.acmicpc.net/problem/1987">알파벳</a></li>
 <li><a href="https://www.acmicpc.net/problem/14501">퇴사</a></li>
-</ul>
-<h4 id="541-">브루트 포스 - 비트마스크</h4>
-<ul>
+<li><a href="https://www.acmicpc.net/problem/16968">차량 번호판 1</a></li>
+<li><a href="https://www.acmicpc.net/problem/16917">양념 반 후라이드 반</a></li>
+<li><a href="https://www.acmicpc.net/problem/16922">로마 숫자 만들기</a></li>
+<li><a href="https://www.acmicpc.net/problem/16924">십자가 찾기</a></li>
+<li><a href="https://www.acmicpc.net/problem/16936">나3곱2</a></li>
+<li><a href="https://www.acmicpc.net/problem/16937">두 스티커</a></li>
+<li><a href="https://www.acmicpc.net/problem/16938">캠프 준비</a></li>
+<li><a href="https://www.acmicpc.net/problem/16943">숫자 재배치</a></li>
+<li><a href="https://www.acmicpc.net/problem/16637">괄호 추가하기</a></li>
+<li><a href="https://www.acmicpc.net/problem/15683">감시</a></li>
+<li><a href="https://www.acmicpc.net/problem/17088">등차수열 변환</a></li>
+<li><a href="https://www.acmicpc.net/problem/15686">치킨 배달</a></li>
+<li><a href="https://www.acmicpc.net/problem/2210">숫자판 점프</a></li>
+<li><a href="https://www.acmicpc.net/problem/3019">테트리스</a></li>
+<li><a href="https://www.acmicpc.net/problem/2422">한윤정이 이탈리아에 가서 아이스크림을 사먹는데</a></li>
+<li><a href="https://www.acmicpc.net/problem/9944">NxM 보드 완주하기</a></li>
+<li><a href="https://www.acmicpc.net/problem/17089">세 친구</a></li>
+<li><a href="https://www.acmicpc.net/problem/17406">배열 돌리기 4</a></li>
+<li><a href="https://www.acmicpc.net/problem/17070">파이프 옮기기 1</a></li>
+<li><a href="https://www.acmicpc.net/problem/17069">파이프 옮기기 2</a></li>
+<li><a href="https://www.acmicpc.net/problem/16638">괄호 추가하기 2</a></li>
+<li><a href="https://www.acmicpc.net/problem/17085">십자가 2개 놓기</a></li>
+<li><a href="https://www.acmicpc.net/problem/16987">계란으로 계란치기</a></li>
+<li><a href="https://www.acmicpc.net/problem/16988">Baaaaaaaaaduk2 (Easy)</a></li>
+<li><a href="https://www.acmicpc.net/problem/15684">사다리 조작</a></li>
+<li><a href="https://www.acmicpc.net/problem/4902">삼각형의 값</a></li>
+<li><a href="https://www.acmicpc.net/problem/16945">매직 스퀘어로 변경하기</a></li>
+<li><a href="https://www.acmicpc.net/problem/16953">A → B</a></li>
+<li><a href="https://www.acmicpc.net/problem/16985">Maaaaaaaaaze</a></li>
+<li><a href="https://www.acmicpc.net/problem/16986">인싸들의 가위바위보</a></li>
+<li><a href="https://www.acmicpc.net/problem/17090">미로 탈출하기</a></li>
+<li><a href="https://www.acmicpc.net/problem/12931">두 배 더하기</a></li>
+<li><a href="https://www.acmicpc.net/problem/16958">텔레포트</a></li>
+<li><a href="https://www.acmicpc.net/problem/12908">텔레포트 3</a></li>
+<li><a href="https://www.acmicpc.net/problem/16957">체스판 위의 공</a></li>
+<li><a href="https://www.acmicpc.net/problem/16971">배열 B의 값</a></li>
+<li><a href="https://www.acmicpc.net/problem/2003">수들의 합 2</a></li>
+<li><a href="https://www.acmicpc.net/problem/1806">부분합</a></li>
+<li><a href="https://www.acmicpc.net/problem/1644">소수의 연속합</a></li>
+<li><a href="https://www.acmicpc.net/problem/1208">부분수열의 합 2</a></li>
+<li><a href="https://www.acmicpc.net/problem/2143">두 배열의 합</a></li>
+<li><a href="https://www.acmicpc.net/problem/7453">합이 0인 네 정수</a></li>
 <li><a href="https://www.acmicpc.net/problem/14225">부분수열의 합</a></li>
 <li><a href="https://www.acmicpc.net/problem/1062">가르침</a></li>
 <li><a href="https://www.acmicpc.net/problem/13460">구슬 탈출 2</a></li>
@@ -48,6 +84,32 @@
 <li><a href="https://www.acmicpc.net/problem/1963">소수 경로</a></li>
 <li><a href="https://www.acmicpc.net/problem/10026">적록색약</a></li>
 <li><a href="https://www.acmicpc.net/problem/14395">4연산</a></li>
+<li><a href="https://www.acmicpc.net/problem/8111">0과 1</a></li>
+<li><a href="https://www.acmicpc.net/problem/17071">숨바꼭질 5</a></li>
+<li><a href="https://www.acmicpc.net/problem/1525">퍼즐</a></li>
+<li><a href="https://www.acmicpc.net/problem/16973">직사각형 탈출</a></li>
+<li><a href="https://www.acmicpc.net/problem/1175">배달</a></li>
+<li><a href="https://www.acmicpc.net/problem/16959">체스판 여행 1</a></li>
+<li><a href="https://www.acmicpc.net/problem/16952">체스판 여행 2</a></li>
+<li><a href="https://www.acmicpc.net/problem/12851">숨바꼭질 2</a></li>
+<li><a href="https://www.acmicpc.net/problem/3197">백조의 호수</a></li>
+<li><a href="https://www.acmicpc.net/problem/9328">열쇠</a></li>
+<li><a href="https://www.acmicpc.net/problem/16920">확장 게임</a></li>
+<li><a href="https://www.acmicpc.net/problem/15653">구슬 탈출 4</a></li>
+<li><a href="https://www.acmicpc.net/problem/15558">점프 게임</a></li>
+<li><a href="https://www.acmicpc.net/problem/16956">늑대와 양</a></li>
+<li><a href="https://www.acmicpc.net/problem/5014">스타트링크</a></li>
+<li><a href="https://www.acmicpc.net/problem/9376">탈옥</a></li>
+<li><a href="https://www.acmicpc.net/problem/2251">물통</a></li>
+<li><a href="https://www.acmicpc.net/problem/16932">모양 만들기</a></li>
+<li><a href="https://www.acmicpc.net/problem/1600">말이 되고픈 원숭이</a></li>
+<li><a href="https://www.acmicpc.net/problem/17086">아기 상어 2</a></li>
+<li><a href="https://www.acmicpc.net/problem/4991">로봇 청소기</a></li>
+<li><a href="https://www.acmicpc.net/problem/2151">거울 설치</a></li>
+<li><a href="https://www.acmicpc.net/problem/2234">성곽</a></li>
+<li><a href="https://www.acmicpc.net/problem/12906">새로운 하노이 탑</a></li>
+<li><a href="https://www.acmicpc.net/problem/17141">연구소 2</a></li>
+<li><a href="https://www.acmicpc.net/problem/17142">연구소 3</a></li>
 </ul>
 <h4 id="710-">그리디 알고리즘</h4>
 <ul>
@@ -112,67 +174,6 @@
 <li><a href="https://www.acmicpc.net/problem/1981">배열에서 이동</a></li>
 <li><a href="https://www.acmicpc.net/problem/1300">K번째 수</a></li>
 <li><a href="https://www.acmicpc.net/problem/1561">놀이 공원</a></li>
-</ul>
-<h4 id="551-">브루트 포스</h4>
-<ul>
-<li><a href="https://www.acmicpc.net/problem/16968">차량 번호판 1</a></li>
-<li><a href="https://www.acmicpc.net/problem/16917">양념 반 후라이드 반</a></li>
-<li><a href="https://www.acmicpc.net/problem/16922">로마 숫자 만들기</a></li>
-<li><a href="https://www.acmicpc.net/problem/16924">십자가 찾기</a></li>
-<li><a href="https://www.acmicpc.net/problem/16936">나3곱2</a></li>
-<li><a href="https://www.acmicpc.net/problem/16937">두 스티커</a></li>
-<li><a href="https://www.acmicpc.net/problem/16938">캠프 준비</a></li>
-<li><a href="https://www.acmicpc.net/problem/16943">숫자 재배치</a></li>
-<li><a href="https://www.acmicpc.net/problem/16637">괄호 추가하기</a></li>
-<li><a href="https://www.acmicpc.net/problem/15683">감시</a></li>
-<li><a href="https://www.acmicpc.net/problem/17088">등차수열 변환</a></li>
-<li><a href="https://www.acmicpc.net/problem/15686">치킨 배달</a></li>
-<li><a href="https://www.acmicpc.net/problem/2210">숫자판 점프</a></li>
-<li><a href="https://www.acmicpc.net/problem/3019">테트리스</a></li>
-<li><a href="https://www.acmicpc.net/problem/2422">한윤정이 이탈리아에 가서 아이스크림을 사먹는데</a></li>
-<li><a href="https://www.acmicpc.net/problem/9944">NxM 보드 완주하기</a></li>
-<li><a href="https://www.acmicpc.net/problem/17089">세 친구</a></li>
-<li><a href="https://www.acmicpc.net/problem/17406">배열 돌리기 4</a></li>
-<li><a href="https://www.acmicpc.net/problem/17070">파이프 옮기기 1</a></li>
-<li><a href="https://www.acmicpc.net/problem/17069">파이프 옮기기 2</a></li>
-<li><a href="https://www.acmicpc.net/problem/16638">괄호 추가하기 2</a></li>
-<li><a href="https://www.acmicpc.net/problem/17085">십자가 2개 놓기</a></li>
-<li><a href="https://www.acmicpc.net/problem/16987">계란으로 계란치기</a></li>
-<li><a href="https://www.acmicpc.net/problem/16988">Baaaaaaaaaduk2 (Easy)</a></li>
-<li><a href="https://www.acmicpc.net/problem/15684">사다리 조작</a></li>
-<li><a href="https://www.acmicpc.net/problem/4902">삼각형의 값</a></li>
-<li><a href="https://www.acmicpc.net/problem/16945">매직 스퀘어로 변경하기</a></li>
-<li><a href="https://www.acmicpc.net/problem/16953">A → B</a></li>
-<li><a href="https://www.acmicpc.net/problem/16985">Maaaaaaaaaze</a></li>
-<li><a href="https://www.acmicpc.net/problem/16986">인싸들의 가위바위보</a></li>
-<li><a href="https://www.acmicpc.net/problem/17090">미로 탈출하기</a></li>
-<li><a href="https://www.acmicpc.net/problem/12931">두 배 더하기</a></li>
-<li><a href="https://www.acmicpc.net/problem/16958">텔레포트</a></li>
-<li><a href="https://www.acmicpc.net/problem/12908">텔레포트 3</a></li>
-<li><a href="https://www.acmicpc.net/problem/16957">체스판 위의 공</a></li>
-<li><a href="https://www.acmicpc.net/problem/16971">배열 B의 값</a></li>
-<li><a href="https://www.acmicpc.net/problem/2003">수들의 합 2</a></li>
-<li><a href="https://www.acmicpc.net/problem/1806">부분합</a></li>
-<li><a href="https://www.acmicpc.net/problem/1644">소수의 연속합</a></li>
-<li><a href="https://www.acmicpc.net/problem/1208">부분수열의 합 2</a></li>
-<li><a href="https://www.acmicpc.net/problem/2143">두 배열의 합</a></li>
-<li><a href="https://www.acmicpc.net/problem/7453">합이 0인 네 정수</a></li>
-</ul>
-<h4 id="612-bfs-2-">BFS</h4>
-<ul>
-<li><a href="https://www.acmicpc.net/problem/16956">늑대와 양</a></li>
-<li><a href="https://www.acmicpc.net/problem/5014">스타트링크</a></li>
-<li><a href="https://www.acmicpc.net/problem/9376">탈옥</a></li>
-<li><a href="https://www.acmicpc.net/problem/2251">물통</a></li>
-<li><a href="https://www.acmicpc.net/problem/16932">모양 만들기</a></li>
-<li><a href="https://www.acmicpc.net/problem/1600">말이 되고픈 원숭이</a></li>
-<li><a href="https://www.acmicpc.net/problem/17086">아기 상어 2</a></li>
-<li><a href="https://www.acmicpc.net/problem/4991">로봇 청소기</a></li>
-<li><a href="https://www.acmicpc.net/problem/2151">거울 설치</a></li>
-<li><a href="https://www.acmicpc.net/problem/2234">성곽</a></li>
-<li><a href="https://www.acmicpc.net/problem/12906">새로운 하노이 탑</a></li>
-<li><a href="https://www.acmicpc.net/problem/17141">연구소 2</a></li>
-<li><a href="https://www.acmicpc.net/problem/17142">연구소 3</a></li>
 </ul>
 <h4 id="900-2">자료구조</h4>
 <ul>
@@ -242,6 +243,39 @@
 <li><a href="https://www.acmicpc.net/problem/2163">초콜릿 자르기</a></li>
 <li><a href="https://www.acmicpc.net/problem/12872">플레이리스트</a></li>
 <li><a href="https://www.acmicpc.net/problem/1767">N-Rook II</a></li>
+<li><a href="https://www.acmicpc.net/problem/4811">알약</a></li>
+<li><a href="https://www.acmicpc.net/problem/1937">욕심쟁이 판다</a></li>
+<li><a href="https://www.acmicpc.net/problem/1520">내리막 길</a></li>
+<li><a href="https://www.acmicpc.net/problem/1915">가장 큰 정사각형</a></li>
+<li><a href="https://www.acmicpc.net/problem/15992">1, 2, 3 더하기 7</a></li>
+<li><a href="https://www.acmicpc.net/problem/16195">1, 2, 3 더하기 9</a></li>
+<li><a href="https://www.acmicpc.net/problem/1328">고층 빌딩</a></li>
+<li><a href="https://www.acmicpc.net/problem/3948">홍준이의 친위대</a></li>
+<li><a href="https://www.acmicpc.net/problem/12911">좋아하는 배열</a></li>
+<li><a href="https://www.acmicpc.net/problem/13392">방법을 출력하지 않는 숫자 맞추기</a></li>
+<li><a href="https://www.acmicpc.net/problem/2494">숫자 맞추기</a></li>
+<li><a href="https://www.acmicpc.net/problem/1514">자물쇠</a></li>
+<li><a href="https://www.acmicpc.net/problem/2169">로봇 조종하기</a></li>
+<li><a href="https://www.acmicpc.net/problem/2157">여행</a></li>
+<li><a href="https://www.acmicpc.net/problem/2228">구간 나누기</a></li>
+<li><a href="https://www.acmicpc.net/problem/1234">크리스마스 트리</a></li>
+<li><a href="https://www.acmicpc.net/problem/2240">자두나무</a></li>
+<li><a href="https://www.acmicpc.net/problem/1983">숫자 박스</a></li>
+<li><a href="https://www.acmicpc.net/problem/2922">즐거운 단어</a></li>
+<li><a href="https://www.acmicpc.net/problem/5069">미로에 갇힌 상근</a></li>
+<li><a href="https://www.acmicpc.net/problem/2602">돌다리 건너기</a></li>
+<li><a href="https://www.acmicpc.net/problem/1994">등차수열</a></li>
+<li><a href="https://www.acmicpc.net/problem/1947">선물 전달</a></li>
+<li><a href="https://www.acmicpc.net/problem/2092">집합의 개수</a></li>
+<li><a href="https://www.acmicpc.net/problem/2172">팰린드롬 경로</a></li>
+<li><a href="https://www.acmicpc.net/problem/12950">팰린드롬 보행</a></li>
+<li><a href="https://www.acmicpc.net/problem/2008">사다리 게임</a></li>
+<li><a href="https://www.acmicpc.net/problem/1126">같은 탑</a></li>
+<li><a href="https://www.acmicpc.net/problem/1513">경로 찾기</a></li>
+<li><a href="https://www.acmicpc.net/problem/2618">경찰차</a></li>
+<li><a href="https://www.acmicpc.net/problem/1801">직사각형 만들기</a></li>
+<li><a href="https://www.acmicpc.net/problem/1750">서로소의 개수</a></li>
+<li><a href="https://www.acmicpc.net/problem/3644">그래프 매칭</a></li>
 </ul>
 <h4 id="1100-1">수학</h4>
 <ul>
@@ -313,22 +347,6 @@
 <li><a href="https://www.acmicpc.net/problem/3176">도로 네트워크</a></li>
 <li><a href="https://www.acmicpc.net/problem/15480">LCA와 쿼리</a></li>
 </ul>
-<h4 id="1220-bfs-2">BFS</h4>
-<ul>
-<li><a href="https://www.acmicpc.net/problem/8111">0과 1</a></li>
-<li><a href="https://www.acmicpc.net/problem/17071">숨바꼭질 5</a></li>
-<li><a href="https://www.acmicpc.net/problem/1525">퍼즐</a></li>
-<li><a href="https://www.acmicpc.net/problem/16973">직사각형 탈출</a></li>
-<li><a href="https://www.acmicpc.net/problem/1175">배달</a></li>
-<li><a href="https://www.acmicpc.net/problem/16959">체스판 여행 1</a></li>
-<li><a href="https://www.acmicpc.net/problem/16952">체스판 여행 2</a></li>
-<li><a href="https://www.acmicpc.net/problem/12851">숨바꼭질 2</a></li>
-<li><a href="https://www.acmicpc.net/problem/3197">백조의 호수</a></li>
-<li><a href="https://www.acmicpc.net/problem/9328">열쇠</a></li>
-<li><a href="https://www.acmicpc.net/problem/16920">확장 게임</a></li>
-<li><a href="https://www.acmicpc.net/problem/15653">구슬 탈출 4</a></li>
-<li><a href="https://www.acmicpc.net/problem/15558">점프 게임</a></li>
-</ul>
 <h4 id="1230-">세그먼트 트리</h4>
 <ul>
 <li><a href="https://www.acmicpc.net/problem/10868">최솟값</a></li>
@@ -343,40 +361,3 @@
 <li><a href="https://www.acmicpc.net/problem/2042">구간 합 구하기</a></li>
 <li><a href="https://www.acmicpc.net/problem/11658">구간 합 구하기 3</a></li>
 </ul>
-<h4 id="1300-3">다이나믹 프로그래밍</h4>
-<ul>
-<li><a href="https://www.acmicpc.net/problem/4811">알약</a></li>
-<li><a href="https://www.acmicpc.net/problem/1937">욕심쟁이 판다</a></li>
-<li><a href="https://www.acmicpc.net/problem/1520">내리막 길</a></li>
-<li><a href="https://www.acmicpc.net/problem/1915">가장 큰 정사각형</a></li>
-<li><a href="https://www.acmicpc.net/problem/15992">1, 2, 3 더하기 7</a></li>
-<li><a href="https://www.acmicpc.net/problem/16195">1, 2, 3 더하기 9</a></li>
-<li><a href="https://www.acmicpc.net/problem/1328">고층 빌딩</a></li>
-<li><a href="https://www.acmicpc.net/problem/3948">홍준이의 친위대</a></li>
-<li><a href="https://www.acmicpc.net/problem/12911">좋아하는 배열</a></li>
-<li><a href="https://www.acmicpc.net/problem/13392">방법을 출력하지 않는 숫자 맞추기</a></li>
-<li><a href="https://www.acmicpc.net/problem/2494">숫자 맞추기</a></li>
-<li><a href="https://www.acmicpc.net/problem/1514">자물쇠</a></li>
-<li><a href="https://www.acmicpc.net/problem/2169">로봇 조종하기</a></li>
-<li><a href="https://www.acmicpc.net/problem/2157">여행</a></li>
-<li><a href="https://www.acmicpc.net/problem/2228">구간 나누기</a></li>
-<li><a href="https://www.acmicpc.net/problem/1234">크리스마스 트리</a></li>
-<li><a href="https://www.acmicpc.net/problem/2240">자두나무</a></li>
-<li><a href="https://www.acmicpc.net/problem/1983">숫자 박스</a></li>
-<li><a href="https://www.acmicpc.net/problem/2922">즐거운 단어</a></li>
-<li><a href="https://www.acmicpc.net/problem/5069">미로에 갇힌 상근</a></li>
-<li><a href="https://www.acmicpc.net/problem/2602">돌다리 건너기</a></li>
-<li><a href="https://www.acmicpc.net/problem/1994">등차수열</a></li>
-<li><a href="https://www.acmicpc.net/problem/1947">선물 전달</a></li>
-<li><a href="https://www.acmicpc.net/problem/2092">집합의 개수</a></li>
-<li><a href="https://www.acmicpc.net/problem/2172">팰린드롬 경로</a></li>
-<li><a href="https://www.acmicpc.net/problem/12950">팰린드롬 보행</a></li>
-<li><a href="https://www.acmicpc.net/problem/2008">사다리 게임</a></li>
-<li><a href="https://www.acmicpc.net/problem/1126">같은 탑</a></li>
-<li><a href="https://www.acmicpc.net/problem/1513">경로 찾기</a></li>
-<li><a href="https://www.acmicpc.net/problem/2618">경찰차</a></li>
-<li><a href="https://www.acmicpc.net/problem/1801">직사각형 만들기</a></li>
-<li><a href="https://www.acmicpc.net/problem/1750">서로소의 개수</a></li>
-<li><a href="https://www.acmicpc.net/problem/3644">그래프 매칭</a></li>
-</ul>
-
