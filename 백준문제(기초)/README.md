@@ -1,6 +1,5 @@
 ## 1.문제
 
-```html
 <h4>자료구조</h4>
 <ul>
 <li><a href="https://www.acmicpc.net/problem/10828">스택</a></li>
@@ -152,5 +151,4 @@
 <li><a href="https://www.acmicpc.net/problem/1167">트리의 지름</a></li>
 <li><a href="https://www.acmicpc.net/problem/1967">트리의 지름</a></li>
 </ul>
-```
 
