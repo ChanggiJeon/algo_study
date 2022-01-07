@@ -38,7 +38,7 @@ git checkout [자기 branch 이름]
 git pull origin main
 git add .
 git commit -m '[message]'
-git push [자신의 branch 이름]
+git push origin [자신의 branch 이름]
 git checkout main
 git merge [자신의 branch 이름]
 git push origin main
