@@ -9,7 +9,7 @@ git clone [HTTPS 형식]
 ## 2. 복제한 폴더에 들어가서 잘 받아졌는지 확인
 
 ```bash
-cd SSAFY_STUDY
+cd algo_study
 # 복제한 로컬저장소로 이동
 
 git log
