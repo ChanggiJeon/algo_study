@@ -31,18 +31,19 @@ git branch [생성할 이름]
 git checkout [이동할 branch 이름]
 ```
 
-## 5. 작업한거 add, commit, pull, push 하기
-#### 전체적인 순서는 pull main&mybranch -> add/commit/push(mybranch) -> merge (main) -> push(main) 입니다 
+## 5. 본인 branch에 push하기
 ```bash
 git checkout [자기 branch 이름]
 git pull origin main
 git add .
 git commit -m '[message]'
-git push
+git push (git push -u origin [자기 branch 이름] - 처음 github에 push할때만)
+```
+
+## 6. 메인에 병합(Merge)하기
+```bash
 git checkout main
 git merge [자신의 branch 이름]
 git push origin main
 ```
 
-## 6. pull requests하기
-git pull origin main
