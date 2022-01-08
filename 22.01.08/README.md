@@ -12,7 +12,7 @@
 
 #### 해결 현황(:white_check_mark: / :white_large_square:  )
 
-|  성명  |      단어뒤집기      |     단어뒤집기2      |        오큰수        |
-| :----: | :------------------: | :------------------: | :------------------: |
-| 전창기 | :white_large_square: | :white_large_square: | :white_large_square: |
+|  성명  |     단어뒤집기     |    단어뒤집기2     |      오등큰수      |
+| :----: | :----------------: | :----------------: | :----------------: |
+| 전창기 | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
