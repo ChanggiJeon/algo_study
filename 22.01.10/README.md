@@ -10,7 +10,7 @@
 
 #### 해결 현황(:white_check_mark: / :white_large_square:  )
 
-|  성명  |        오큰수        |
+|  성명  |      문자열분석      |
 | :----: | :------------------: |
 | 김종현 | :white_large_square: |
 | 전창기 | :white_large_square: |
