@@ -12,6 +12,6 @@
 
 |  성명  |      문자열분석      |
 | :----: | :------------------: |
-| 김종현 | :white_large_square: |
+| 김종현 |  :white_check_mark:  |
 | 전창기 | :white_large_square: |
 
