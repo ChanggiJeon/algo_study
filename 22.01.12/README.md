@@ -10,6 +10,6 @@
 
 |  성명  |        부등호        |
 | :----: | :------------------: |
-| 김종현 | :white_large_square: |
+| 전창기 |  :white_check_mark:  |
+| 김종현 |  :white_check_mark:  |
 | 전창기 | :white_large_square: |
-| 강진구 | :white_large_square: |
