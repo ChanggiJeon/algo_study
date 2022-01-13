@@ -12,6 +12,6 @@
 | :----: | :------------------: |
 | 전창기 |  :white_check_mark:  |
 | 김종현 | :white_check_mark: |
-| 전창기 | :white_large_square: |
+| 전창기 | :white_check_mark: |
 | 박우경 | :white_large_square: |
 
