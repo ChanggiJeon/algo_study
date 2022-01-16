@@ -7,6 +7,7 @@ DP 접근으로 효율적으로 푸는 방법
    (증가 부분 수열 검사)
  - 누적합의 값이 최대가 되는 값으로 갱신한다.
  - 갱신된 전체 최대값 리스트에서 가장 큰 값을 출력
+deepcopy : from copy import deepcopy
 ```
 
 2. M과 N
@@ -20,5 +21,6 @@ queue와 deque(Double Ended Queue)의 차이
 queue의 단점 : 공간효율성
  - enqueue와 dequeue의 횟수가 커지면서 queue에 점점 많은 데이터가 쌓이게 되고 queue가 무거워지면 앞에 데이터를 dequeue했을 때 뒤에 있는 모든 데이터를 한칸씩 땡겨야함으로 비효율적임
  - deque는 양쪽에서 입출력이 가능하도록 설계가 되어있기 때문에 위 문제에 걸리지 않음
+deque : from collections import deque
 ```
 
