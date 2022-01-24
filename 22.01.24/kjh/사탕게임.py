@@ -11,8 +11,8 @@ def solve(Bomboni):
             # 다르면 초기화
             else:
                 cnt = 1
-        if ans < cnt:
-            ans = cnt
+            if ans < cnt:
+                ans = cnt
 
         # 열검사
         cnt = 1
@@ -21,8 +21,8 @@ def solve(Bomboni):
                 cnt += 1
             else:
                 cnt = 1
-        if ans < cnt:
-            ans = cnt
+            if ans < cnt:
+                ans = cnt
 
 
 n = int(input())
@@ -32,14 +32,14 @@ ans = 1
 for i in range(n):
     for j in range(n):
         # 오른쪽 서로 다르면 교환
-        if j < n - 1 and arr[i][j] != arr[i][j + 1]:
+        if j < n - 1 and arr[i][j + 1] != arr[i][j]:
             arr[i][j], arr[i][j + 1] = arr[i][j + 1], arr[i][j]
             # 먹을 수 있는 사탕 세기
             solve(arr)
             # 교환 돌려놓기
             arr[i][j], arr[i][j + 1] = arr[i][j + 1], arr[i][j]
         # 아래쪽 서로 다르면 교환
-        if i < n - 1 and arr[i][j] != arr[i + 1][j]:
+        if i < n - 1 and arr[i + 1][j] != arr[i][j]:
             arr[i][j], arr[i + 1][j] = arr[i + 1][j], arr[i][j]
             # 먹을 수 있는 사탕 세기
             solve(arr)
