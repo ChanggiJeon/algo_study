@@ -10,7 +10,11 @@
 
 |  성명  |       완료여부       |
 | :----: | :------------------: |
+<<<<<<< HEAD
 | 강진구 | :white_check_mark: |
+=======
+| 강진구 | :white_large_square: |
+>>>>>>> 654107f19350ed97519e480a1d9660a1a0832678
 | 김종현 |  :white_check_mark:  |
 | 전창기 | :white_check_mark: |
 | 박우경 | :white_check_mark: |
