@@ -14,6 +14,6 @@
 | 김종현 |  :white_check_mark:  |
 | 전창기 |  :white_check_mark:  |
 | 박우경 |  :white_check_mark:  |
-| 윤종목 | :white_large_square: |
+| 윤종목 | :white_large_square::white_check_mark: |
 | 이찬희 | :white_large_square: |
 
