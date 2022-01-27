@@ -11,13 +11,8 @@
 |  성명  |       완료여부       |
 | :----: | :------------------: |
 | 강진구 | :white_large_square: |
-<<<<<<< HEAD
-| 김종현 | :white_large_square: |
+| 김종현 |  :white_check_mark:  |
 | 전창기 |  :white_check_mark:  |
-=======
-| 김종현 | :white_check_mark: |
-| 전창기 | :white_large_square: |
->>>>>>> 7046e092070897d4e6b96d2e3546ae16090e11de
 | 박우경 | :white_large_square: |
 | 윤종목 | :white_large_square: |
 | 이찬희 | :white_large_square: |
