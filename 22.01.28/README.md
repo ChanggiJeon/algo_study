@@ -12,7 +12,7 @@
 | :----: | :------------------: |
 | 강진구 | :white_large_square: |
 | 김종현 | :white_large_square: |
-| 전창기 | :white_large_square: |
+| 전창기 |  :white_check_mark:  |
 | 박우경 |  :white_check_mark:  |
 | 윤종목 | :white_large_square: |
 | 이찬희 | :white_large_square: |
