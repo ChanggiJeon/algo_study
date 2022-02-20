@@ -13,9 +13,8 @@
 |  성명  |       완료여부       |
 | :----: | :------------------: |
 | 강진구 | :white_large_square: |
-| 김종현 | :white_large_square: |
+| 김종현 |                     :white_check_mark:                     |
 | 전창기 |  :white_check_mark:  |
-| 박우경 | :white_large_square: |
-| 윤종목 | :white_check_mark: |
-| 이찬희 |  :white_large_square:  |
-
+| 박우경 |:white_large_square:|
+| 윤종목 | :white_check_mark::white_large_square::white_large_square: |
+| 이찬희 | :white_large_square: |
