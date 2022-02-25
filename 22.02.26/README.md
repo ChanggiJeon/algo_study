@@ -4,7 +4,7 @@
 
 |      | 분류 |         문제명          |                 링크                  | 난이도 |
 | :--: | :--: | :---------------------: | :-----------------------------------: | :----: |
-|  R1  |  DP  |     카드 구매하기2      | https://www.acmicpc.net/problem/2193  | 실버3  |
+|  R1  |  DP  |         이친수          | https://www.acmicpc.net/problem/2193  | 실버3  |
 |  R2  |  DP  |       제곱수의 합       | https://www.acmicpc.net/problem/1699  | 실버3  |
 |  R3  |  DP  | 가장긴증가하는부분수열4 | https://www.acmicpc.net/problem/14002 | 골드4  |
 
