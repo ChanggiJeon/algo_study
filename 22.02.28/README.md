@@ -18,3 +18,4 @@
 | 박우경 | :white_large_square: |
 | 윤종목 | :white_large_square: |
 | 이찬희 | :white_large_square: |
+| 박명우 | :white_large_square: |
