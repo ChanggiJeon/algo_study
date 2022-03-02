@@ -47,7 +47,6 @@ while q:
     for nn in (cn - 1, cn + 1, cn * 2):
         # 다음 위치의 범위, 방문 확인
         if 0 <= nn <= 100000 and not v[nn]:
-            # 다음 위치가 도착지면
             # 방문 횟수 체크
             v[nn] = v[cn] + 1
             # 다음 위치 확인
