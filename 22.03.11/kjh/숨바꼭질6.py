@@ -18,8 +18,9 @@ abs_arr = []
 for i in range(L):
     abs_arr.append(abs(s - arr[i]))
 # 최대공약수 구하기
-ans = 0
-for i in range(L-1):
-    for j in range(i+1, L):
-        tmp = gcd()
+# 0번과 1의 최대공약수의 2와의 최대공약수는 0과 1과 2의 최대공약수
+ans = abs_arr[0]
+for i in range(1, L):
+    ans = gcd(ans, abs_arr[i])
 
+print(ans)
