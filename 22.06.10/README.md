@@ -12,6 +12,7 @@
 
 |  성명  |       완료여부       |
 | :----: | :------------------: |
+| 강진구 | :white_large_square: |
 | 김종현 | :white_large_square: |
 | 전창기 | :white_large_square: |
 | 윤재성 | :white_large_square: |
