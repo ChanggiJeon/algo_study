@@ -2,11 +2,11 @@
 
 #### 학습할 알고리즘
 
-|      |  분류  |     문제명      |                 링크                  | 난이도 |
-| :--: | :----: | :-------------: | :-----------------------------------: | :----: |
-|  R1  | 그래프 | 서울지하철2호선 | https://www.acmicpc.net/problem/16947 | 골드3  |
-|  R2  | 그래프 |  BFS스페셜저지  | https://www.acmicpc.net/problem/16940 | 골드3  |
-|  R3  |  BFS   |     돌그룹      | https://www.acmicpc.net/problem/12886 | 골드4  |
+|      |    분류    |    문제명     |                 링크                  | 난이도 |
+| :--: | :--------: | :-----------: | :-----------------------------------: | :----: |
+|  R1  | 브루트포스 |    두 동전    | https://www.acmicpc.net/problem/16197 | 골드4  |
+|  R2  | 브루트포스 | 에너지 모으기 | https://www.acmicpc.net/problem/16198 | 실버1  |
+|  R3  |  분할정복  |   숫자 카드   | https://www.acmicpc.net/problem/10815 | 실버5  |
 
 #### 해결 현황(:white_check_mark: / :white_large_square:  )
 
