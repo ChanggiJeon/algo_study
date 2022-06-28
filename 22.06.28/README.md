@@ -4,7 +4,7 @@
 
 |      | 분류 |    문제명    |                 링크                  | 난이도  |
 | :--: | :--: | :----------: | :-----------------------------------: | :-----: |
-|  R1  |  정렬  | 수 정렬하기2 |https://www.acmicpc.net/problem/2751 |  실드5  |
+|  R1  |  정렬  | 수 정렬하기2 |https://www.acmicpc.net/problem/2751 |  실버5  |
 
 #### 해결 현황(:white_check_mark: / :white_large_square:  )
 
@@ -14,5 +14,5 @@
 | 김종현 | :white_check_mark: |
 | 윤재성 | :white_check_mark: |
 | 이찬희 | :white_large_square: |
-| 전창기 | :white_large_square: |
+| 전창기 | :white_check_mark: |
 
