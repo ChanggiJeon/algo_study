@@ -4,7 +4,7 @@
 
 |      | 분류 |    문제명    |                 링크                  | 난이도  |
 | :--: | :--: | :----------: | :-----------------------------------: | :-----: |
-|  R1  |  정렬  | 좌표 압축 |https://www.acmicpc.net/problem/18870 |  실드2  |
+|  R1  |  정렬  | 좌표 압축 |https://www.acmicpc.net/problem/18870 |  실버2  |
 
 #### 해결 현황(:white_check_mark: / :white_large_square:  )
 
