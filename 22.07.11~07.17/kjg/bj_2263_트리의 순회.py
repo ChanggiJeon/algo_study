@@ -34,6 +34,10 @@ sys.setrecursionlimit(10 ** 6)
 # 이때 후위순회는 시작점에서 (시작점 + 왼 노드 개수 -1) 오른쪽은 (끝점 - 오른 노드 개수)에서 끝점 - 1 까지이다.
 # 이와 같은 방식으로 코드를 짜보자
 
+# 후위 순회를 통해 정점 위치 파악
+# 중위 수회를 통해서 왼쪽 노드 갯수랑 오른쪽 노드갯수를 파악하는겁니다.
+
+
 def preorder(in_s, in_e, pos_s, pos_e):
     # 각 순회의 시작점이 끝점을 넘으면 안되기 때문에
     # 그리고 최고 레벨노드에서 재귀시 아래 조건문에 걸리게 된다
@@ -50,6 +54,7 @@ def preorder(in_s, in_e, pos_s, pos_e):
 
     # 전위 순회의 순서는 정점, 왼쪽, 오른쪽이다
     print(root, end=" ")
+    #처음 기준으로 left 7 right 3
     preorder(in_s, in_s + left - 1, pos_s, pos_s + left - 1)
     preorder(in_e - right + 1, in_e, pos_e - right, pos_e - 1)
 
@@ -64,4 +69,5 @@ poss = list(map(int, input().split()))
 nodes = [0] * (a + 1)
 for i in range(a):
     nodes[ins[i]] = i
+# [7,3,9,1,5,8,10,0,2,4,6]
 preorder(0, a - 1, 0, a - 1)
