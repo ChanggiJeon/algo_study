@@ -25,8 +25,8 @@ def solve(cr, cc, move, s):
         return
 
     # 종료 조건2 : 최댓값으로 다 더해도 결과값을 넘지 못하는 경우(가지치기)
-    if s + move * v_max <= ans:
-        return
+    # if s + move * v_max <= ans:
+    #     return
 
     # 사방 탐색
     for k in range(4):

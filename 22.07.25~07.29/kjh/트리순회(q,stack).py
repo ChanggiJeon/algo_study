@@ -16,23 +16,24 @@ for _ in range(n):
     tree[root] = [left, right]
 
 # 전위 순회 : 루 - 왼 - 오
+# 왼쪽먼저 순회하기 위해 오른쪽먼저 넣어준다.(LIFO)
 preorder = ''
 visit = [0] * 91
-q = deque()
-q.append('A')
-while q:
-    cur_node = q.popleft()
+stack = list()
+stack.append('A')
+while stack:
+    cur_node = stack.pop()
     visit[ord(cur_node)] = 1
     # 루트 추가
     preorder += cur_node
-    # 왼쪽 추가
-    left = tree[cur_node][0]
-    if left != '.' and not visit[ord(left)]:
-        q.appendleft(left)
     # 오른쪽 추가
     right = tree[cur_node][1]
     if right != '.' and not visit[ord(right)]:
-        q.append(right)
+        stack.append(right)
+    # 왼쪽 추가
+    left = tree[cur_node][0]
+    if left != '.' and not visit[ord(left)]:
+        stack.append(left)
 print(preorder)
 
 # 중위 순회 : 왼 - 루 - 오
