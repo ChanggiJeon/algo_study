@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.concurrent.ThreadPoolExecutor.AbortPolicy;
 
 public class Main_BJ_2607_비슷한단어 {
 	/**
@@ -18,48 +19,48 @@ public class Main_BJ_2607_비슷한단어 {
 		int N = Integer.parseInt(br.readLine());
 		int[][] table = new int[N][26];
 		int[] length = new int[N];
-		
-		for(int i=0; i<N; i++) {
+
+		for (int i = 0; i < N; i++) {
 			String input = br.readLine();
 			length[i] = input.length();
-			for(int j=0; j<input.length(); j++) {
-				int alpha = input.charAt(j)-'A';
+			for (int j = 0; j < input.length(); j++) {
+				int alpha = input.charAt(j) - 'A';
 				table[i][alpha]++;
 			}
 		}
-		
+
 		int ans = 0;
 		int startLenght = length[0];
-		
-		o : for(int i=1; i<N; i++) {
-			//길이가 2이상 차이나면 X
-			if(startLenght>length[i]+1 || startLenght<length[i]-1) {
+
+		o: for (int i = 1; i < N; i++) {
+			// 길이가 2이상 차이나면 X
+			if (startLenght > length[i] + 1 || startLenght < length[i] - 1) {
 				continue;
 			}
-			
+
 			int diffAlpha = 0;
 			int cnt = 0;
-			
-			for(int k=0; k<26; k++) {
-				//단어 수가 2이상 차이나거나, 이미 2번 교체 했다면 X
-				if(table[0][k] > table[i][k]+1 || table[0][k]+1 < table[i][k] || cnt>2) {
+
+			for (int k = 0; k < 26; k++) {
+				// 단어 수가 2이상 차이나거나, 이미 2번 교체 했다면 X
+				if (table[0][k] > table[i][k] + 1 || table[0][k] + 1 < table[i][k] || cnt > 2) {
 					continue o;
-				}else if(table[0][k] > table[i][k]) {
+				} else if (table[0][k] > table[i][k]) {
 					diffAlpha++;
 					cnt++;
-				}else if(table[0][k] < table[i][k]){
+				} else if (table[0][k] < table[i][k]) {
 					diffAlpha--;
 					cnt++;
 				}
 			}
-			//2번 교체, 차이나는 알파벳 수가 0
-			if(cnt==2 && diffAlpha == 0) {
+			// 2번 교체, 차이나는 알파벳 수가 0
+			if (cnt == 2 && diffAlpha == 0) {
 				ans++;
-			//0번 교체
-			}else if(cnt == 0) {
+				// 0번 교체
+			} else if (cnt == 0) {
 				ans++;
-			//1번 추가 및 삭제
-			}else if(cnt == 1 && (diffAlpha==1 || diffAlpha == -1) ) {
+				// 1번 추가 및 삭제
+			} else if (cnt == 1 && (diffAlpha == 1 || diffAlpha == -1)) {
 				ans++;
 			}
 		}
