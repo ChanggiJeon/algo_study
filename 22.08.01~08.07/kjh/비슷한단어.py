@@ -2,6 +2,7 @@ def solve(key_word, check_word):
     # 한글자씩 확인해서 키워드에 있으면 제거
     check = True
     for c in check_word:
+        # in/remove는 O(n)
         if c in key_word:
             key_word.remove(c)
         # 키워드에 없으면 check_word가 두개이상 다른지 검사
