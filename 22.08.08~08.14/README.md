@@ -18,4 +18,4 @@
 | 김종현 | :white_check_mark: | :white_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: |
 |  윤재성  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_large_square: |
 | 이찬희 | :white_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| 전창기 |  :white_check_mark:  |  :white_check_mark:  | :white_large_square: | :white_large_square: | :white_large_square: |
+| 전창기 |  :white_check_mark:  |  :white_check_mark:  | :white_large_square: | :white_check_mark: | :white_check_mark: |
