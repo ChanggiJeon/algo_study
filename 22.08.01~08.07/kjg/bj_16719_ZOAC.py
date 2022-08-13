@@ -1,6 +1,6 @@
 a = list(input())
 b = [''] * len(a)
-
+print(b)
 
 def recursion(a, start):
     if not a:
