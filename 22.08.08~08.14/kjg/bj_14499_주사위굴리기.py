@@ -1,4 +1,4 @@
-N,M,x,y,k = map(int,input().split())
+N,M,y,x,k = map(int,input().split())
 world = [list(map(int, input().split())) for _ in range(N)]
 roll_d = list(map(int, input().split()))
 
@@ -9,14 +9,14 @@ dy = [0,0,-1,1]
 dice = [0,0,0,0,0,0,0]
 
 # 1:동, 2:서, 3:북, 4: 남
-def rolling(x) :
-    if x == 1:
+def rolling(dr) :
+    if dr == 1:
         dice[1], dice[3], dice[4], dice[6] = dice[4], dice[1], dice[6], dice[3]  
-    elif x == 2:
+    elif dr == 2:
         dice[1], dice[3], dice[4], dice[6] = dice[3], dice[6], dice[1], dice[4] 
-    elif x == 3:
+    elif dr == 3:
         dice[1], dice[2], dice[5], dice[6] = dice[5], dice[1], dice[6], dice[2] 
-    elif x == 4:
+    elif dr == 4:
         dice[1], dice[2], dice[5], dice[6] = dice[2], dice[6], dice[1], dice[5] 
 
 for i in roll_d:
