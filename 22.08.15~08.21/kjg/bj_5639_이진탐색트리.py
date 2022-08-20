@@ -1,28 +1,29 @@
+import sys
+
+sys.setrecursionlimit(10 ** 9)
+
 preoder = []
 
-def postorder(array):
-    if len(array) == 0:
-        return []
-    max_idx = len(array)
-    
-    for i in range(1,len(array)):
-        if array[i] > array[0]:
-            max_idx = i
+
+def postorder(start, end):
+    if start > end:
+        return
+    mid = end + 1
+    for i in range(start + 1, end + 1):
+        if preoder[i] > preoder[start]:
+            mid = i
             break
-    return postorder(array[1:max_idx]) + postorder(array[max_idx:]) + [array[0]]
-
-
+    postorder(start + 1, mid - 1)
+    postorder(mid, end)
+    print(preoder[start])
 
 
 while True:
     try:
-        a = input()
-    except EOFError:
+        num = int(input())
+        preoder.append(num)
+    except:
         break
-    preoder.append(int(a))
-print(preoder)
-ans = postorder(preoder)
-for i in ans:
-    print(i)
+postorder(0, len(preoder) - 1)
 
-    
+
