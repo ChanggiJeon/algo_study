@@ -2,7 +2,7 @@
 n, m = map(int, input().split())
 chapter_arr = [list(map(int, input().split())) for _ in range(m)]
 
-# 초기값
+# 초기값 (무게가 0인 경우는 없음으로 0은 제외 1부터 n + 1까지, 계산할 때 유의)
 DP = [0] * (n + 1)
 
 # 풀이
