@@ -15,7 +15,7 @@
 |        |          1           |          2           |          3           |          4           |          5           |
 | :----: | :------------------: | :------------------: | :------------------: | :------------------: | :------------------: |
 | 강진구 | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| 김종현 | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| 김종현 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_large_square: |
 |  윤재성  | :white_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
 | 이찬희 | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
 | 전창기 |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |
