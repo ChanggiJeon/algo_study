@@ -17,7 +17,6 @@ for _ in range(m):
 ans = 0
 INF = int(1e9)
 
-
 # 풀이 : heapq를 활용한 다익스트라 알고리즘
 def dijkstra(start_island, end_island):
     # index = student / value = time(최단거리)인 리스트
@@ -29,13 +28,14 @@ def dijkstra(start_island, end_island):
     # start_island에서 모든 노드로 가는 최단 경로 탐색
     while q:
         cur_time, cur_island = heappop(q)
+        if cur_island == end_island:
+            return student_time[end_island]
         for next_time, next_island in graph[cur_island]:
             # 이동 했을 때 시간이 이동할 위치에 있는 기존 시간보다 작으면 갱신
             time = cur_time + next_time
             if time < student_time[next_island]:
                 student_time[next_island] = time
                 heappush(q, (student_time[next_island], next_island))
-    return student_time[end_island]
 
 
 for i in range(1, n+1):
