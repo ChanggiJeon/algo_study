@@ -13,7 +13,7 @@ for _ in range(N):
 
 # 풀이
 DP = [D] * (D + 1)
-for start, end, dist in sorted(graph):
+for start, end, dist in graph:
     # 현재 위치에서의 누적거리
     cur_dist = DP[start]
     # 현재 위치의 거리가 갱신되지 않았으면 시작 위치가 곧 누적 거리임(정렬)
