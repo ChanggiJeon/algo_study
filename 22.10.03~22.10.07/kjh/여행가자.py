@@ -1,10 +1,12 @@
 import sys
-sys.setrecursionlimit(10**8)
 
 
 def find(x):
-    if parent[x] != x:
-        parent[x] = find(parent[x])
+    # x가 루트이면 x를 반환
+    if x == parent[x]:
+        return x
+    # x가 루트가 아니면 경로압축최적화 후 부모를 리턴
+    parent[x] = find(parent[x])
     return parent[x]
 
 
@@ -14,6 +16,7 @@ def union(a, b):
     if a == b:
         return
     else:
+        # 큰거의 부모를 작은거로
         parent[max(a, b)] = min(a, b)
 
 
@@ -35,7 +38,7 @@ for i in range(n):
 
 # 집합의 시작점 체크
 root = parent[plan[0]]
-for i in plan:
+for i in set(plan):
     if parent[i] != root:
         print("NO")
         exit()
