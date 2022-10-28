@@ -57,7 +57,7 @@ for first in range(0, M-2):
             # 현재 3명의 궁수 위치 조합에서 kill count와 그래프(맵)
             kill_cnt = 0
             graph_copy = deepcopy(graph_origin)
-            # 2. 궁수 row 위치 선정(게임 진행에 따라 위로 한칸씩 이동, 1 ~ 1번 행까지)
+            # 2. 궁수 row 위치 선정(게임 진행에 따라 위로 한칸씩 이동, N ~ 1번 행까지)
             for row in range(N, 0, -1):
                 # 결과 저장
                 res = list()
