@@ -1,0 +1,35 @@
+import java.util.*;
+class Solution {
+    int[] parents;
+    int[] level;
+    public int solution(int n, int[][] costs) {
+        int answer = 0;
+        parents = new int[n+1];
+        level = new int[n+1];
+        for(int i = 1; i <= n; i++){
+            parents[i] = i;
+        }
+        Arrays.sort(costs, (int[] o1, int[] o2) -> {return o1[2] - o2[2];});
+        for(int[] c : costs){
+            if(union(c[0], c[1]))answer+=c[2];
+        }
+        return answer;
+    }
+    public boolean union (int a, int b){
+        a = find(a);
+        b = find(b);
+        if(a == b)return false;
+        if(level[a] < level[b]){
+            int tmp = a;
+            a = b;
+            b = tmp;
+        }
+        parents[b] = a;
+        if(level[b]==level[a])level[a]++;
+        return true;
+    }
+    public int find (int a){
+        if(parents[a]==a)return a;
+        return parents[a] = find(parents[a]);
+    }
+}
