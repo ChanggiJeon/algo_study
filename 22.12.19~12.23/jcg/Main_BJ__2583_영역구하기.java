@@ -46,16 +46,10 @@ public class Main_BJ__2583_영역구하기 {
 				}
 			}
 		}
-		for(int i=0; i<=R; i++) {
-			map[i][C] = true;
-		}
-		for(int i=0; i<=C; i++) {
-			map[R][i] = true;
-		}
-		
+
 		ArrayList<Integer> arr = new ArrayList<>();
-		for(int i=0; i<=R; i++) {
-			for(int j=0; j<=C; j++) {
+		for(int i=0; i<R; i++) {
+			for(int j=0; j<C; j++) {
 				if(!map[i][j]) {
 					arr.add(bfs(i,j));
 				}
@@ -92,6 +86,6 @@ public class Main_BJ__2583_영역구하기 {
 	}
 
 	private static boolean boundary(int nr, int nc) {
-		return nr>=0 && nr<=R && nc>=0 && nc<=C;
+		return nr>=0 && nr<R && nc>=0 && nc<C;
 	}
 }
