@@ -1,4 +1,4 @@
-### 2023.01.09~01.013(1월 2주차) 스터디 진행판
+### 2023.01.09~01.13(1월 2주차) 스터디 진행판
 
 #### 학습할 알고리즘(난이도 오름차순 정렬)
 
@@ -15,6 +15,6 @@
 | 강진구 | :white_large_square: | :white_large_square: | :white_large_square: |
 | 윤재성 | :white_large_square: | :white_large_square: | :white_large_square: |
 |  이지우  | :white_large_square: | :white_large_square: | :white_large_square: |
-| 전창기 | :white_large_square: |  :white_large_square:  |  :white_large_square:  |
+| 전창기 | :white_large_square: |  :white_check_mark:  |  :white_large_square:  |
 | 하지애 | :white_large_square: | :white_large_square: | :white_large_square: |
 
