@@ -14,7 +14,7 @@
 | :----: | :------------------: | :------------------: | :------------------: |
 | 강진구 | :white_check_mark: | :white_check_mark: | :white_large_square: |
 | 윤재성 | :white_check_mark: | :white_check_mark: | :white_large_square: |
-|  이지우  | :white_large_square: | :white_large_square: | :white_large_square: |
+| 이지우 | :white_large_square: |  :white_check_mark:  |  :white_check_mark:  |
 | 전창기 | :white_check_mark: |  :white_check_mark:  |  :white_check_mark:  |
 | 하지애 | :white_check_mark:| :white_large_square: | :white_large_square: |
 
