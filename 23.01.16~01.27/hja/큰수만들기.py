@@ -5,7 +5,7 @@ def findMax(number, start, end):
     orderV = start
     maxV = number[start]
     for i in range(start, end):
-        if number[i] == "9":
+        if number[i] == "9": ## 안 넣으면 시간초과
             orderV = i
             maxV = number[i]
             return orderV, maxV
