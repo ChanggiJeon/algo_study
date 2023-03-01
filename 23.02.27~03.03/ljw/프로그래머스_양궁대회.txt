@@ -1,0 +1,42 @@
+class Solution {
+    int[] answer = new int[]{-1};
+    int maxScore = 1;
+    int[] opponent;
+    public int[] solution(int n, int[] info) {
+        opponent = info;
+        takeThatArea(0, n, new int[11], 0);
+        return answer;
+    }
+    public boolean isLetterThan(int[] selectedArea){
+        if(answer[0] == -1) return true;
+        for(int i = 10; i >= 0; i--){
+            if(selectedArea[i] > answer[i]) return true;
+            else if(selectedArea[i] < answer[i]) return false;
+        }
+        return false;
+    }
+    public void takeThatArea(int area, int arrow, int[] selectedArea, int accScore){
+        if(area == 10){
+            if(accScore > maxScore){
+                maxScore = accScore;
+                selectedArea[10] = arrow;
+                answer = selectedArea.clone();
+            }else if(accScore == maxScore){
+                selectedArea[10] = arrow;
+                if(isLetterThan(selectedArea))
+                    answer = selectedArea.clone();
+            }
+            return;
+        }
+        int cnt = opponent[area] + 1;
+        if(arrow > opponent[area]){ // 차지한다.
+            selectedArea[area] = cnt;
+            takeThatArea(area+1, arrow - cnt, selectedArea, accScore+10-area);
+        }
+        selectedArea[area] = 0;
+        if(cnt == 1)
+            takeThatArea(area+1, arrow, selectedArea, accScore);
+        else
+            takeThatArea(area+1, arrow, selectedArea, accScore+area-10);
+    }
+}
