@@ -31,7 +31,7 @@ def bfs():
                     visited[nx][ny] = w
                 elif w < k:
                     if not day:
-                        q.append((x, y, w))
+                        q.append((x, y, w))  # 나중에 확인
                     else:
                         q.append((nx, ny, w+1))
                         visited[nx][ny] = w
